@@ -19,6 +19,8 @@
 		EECA44E727F1435700173BCB /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44E627F1435700173BCB /* GFButton.swift */; };
 		EECA44E927F1460300173BCB /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44E827F1460300173BCB /* GFTextField.swift */; };
 		EECA44EB27F14C3000173BCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44EA27F14C3000173BCB /* Extensions.swift */; };
+		EECA44F027F1542F00173BCB /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44EF27F1542F00173BCB /* FollowerListViewController.swift */; };
+		EECA44F227F157A700173BCB /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44F127F157A700173BCB /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		EECA44E627F1435700173BCB /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		EECA44E827F1460300173BCB /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		EECA44EA27F14C3000173BCB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EECA44EF27F1542F00173BCB /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		EECA44F127F157A700173BCB /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 			children = (
 				EECA44E227F13B4600173BCB /* SearchViewController.swift */,
 				EECA44E427F13B7100173BCB /* FavoriteListViewController.swift */,
+				EECA44EF27F1542F00173BCB /* FollowerListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 		EECA44EE27F14D0500173BCB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EECA44F127F157A700173BCB /* String+Ext.swift */,
 				EECA44EA27F14C3000173BCB /* Extensions.swift */,
 			);
 			path = Utils;
@@ -290,6 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECA44F227F157A700173BCB /* String+Ext.swift in Sources */,
+				EECA44F027F1542F00173BCB /* FollowerListViewController.swift in Sources */,
 				EECA44E927F1460300173BCB /* GFTextField.swift in Sources */,
 				EECA44E527F13B7100173BCB /* FavoriteListViewController.swift in Sources */,
 				EECA44E727F1435700173BCB /* GFButton.swift in Sources */,
