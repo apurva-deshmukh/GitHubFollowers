@@ -16,6 +16,9 @@
 		EECA44D627F12D4300173BCB /* GHFollowersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44D527F12D4300173BCB /* GHFollowersUITestsLaunchTests.swift */; };
 		EECA44E327F13B4600173BCB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44E227F13B4600173BCB /* SearchViewController.swift */; };
 		EECA44E527F13B7100173BCB /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44E427F13B7100173BCB /* FavoriteListViewController.swift */; };
+		EECA44E727F1435700173BCB /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44E627F1435700173BCB /* GFButton.swift */; };
+		EECA44E927F1460300173BCB /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44E827F1460300173BCB /* GFTextField.swift */; };
+		EECA44EB27F14C3000173BCB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA44EA27F14C3000173BCB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EECA44D527F12D4300173BCB /* GHFollowersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EECA44E227F13B4600173BCB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EECA44E427F13B7100173BCB /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
+		EECA44E627F1435700173BCB /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		EECA44E827F1460300173BCB /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		EECA44EA27F14C3000173BCB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,14 @@
 		EECA44B127F12D3F00173BCB /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				EECA44EE27F14D0500173BCB /* Utils */,
+				EECA44ED27F14CF900173BCB /* Views */,
+				EECA44EC27F14CDE00173BCB /* Controllers */,
 				EECA44B227F12D3F00173BCB /* AppDelegate.swift */,
 				EECA44B427F12D3F00173BCB /* SceneDelegate.swift */,
 				EECA44BB27F12D4300173BCB /* Assets.xcassets */,
 				EECA44BD27F12D4300173BCB /* LaunchScreen.storyboard */,
 				EECA44C027F12D4300173BCB /* Info.plist */,
-				EECA44E227F13B4600173BCB /* SearchViewController.swift */,
-				EECA44E427F13B7100173BCB /* FavoriteListViewController.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -125,6 +132,32 @@
 				EECA44D527F12D4300173BCB /* GHFollowersUITestsLaunchTests.swift */,
 			);
 			path = GHFollowersUITests;
+			sourceTree = "<group>";
+		};
+		EECA44EC27F14CDE00173BCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EECA44E227F13B4600173BCB /* SearchViewController.swift */,
+				EECA44E427F13B7100173BCB /* FavoriteListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EECA44ED27F14CF900173BCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EECA44E627F1435700173BCB /* GFButton.swift */,
+				EECA44E827F1460300173BCB /* GFTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EECA44EE27F14D0500173BCB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EECA44EA27F14C3000173BCB /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECA44E927F1460300173BCB /* GFTextField.swift in Sources */,
 				EECA44E527F13B7100173BCB /* FavoriteListViewController.swift in Sources */,
+				EECA44E727F1435700173BCB /* GFButton.swift in Sources */,
 				EECA44E327F13B4600173BCB /* SearchViewController.swift in Sources */,
 				EECA44B327F12D3F00173BCB /* AppDelegate.swift in Sources */,
 				EECA44B527F12D3F00173BCB /* SceneDelegate.swift in Sources */,
+				EECA44EB27F14C3000173BCB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
