@@ -9,6 +9,8 @@ import UIKit
 
 class GFTextField: UITextField {
 
+    // MARK: Lifecycle
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -17,6 +19,8 @@ class GFTextField: UITextField {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    // MARK: Helpers
     
     private func configure() {
         layer.cornerRadius = 10

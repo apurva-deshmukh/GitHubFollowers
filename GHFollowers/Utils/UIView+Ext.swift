@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  UIView+Ext.swift
 //  GHFollowers
 //
 //  Created by Apurva Deshmukh on 3/27/22.
