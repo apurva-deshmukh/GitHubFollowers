@@ -20,6 +20,8 @@ class GFAlertContainerView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: Helpers
+    
     private func configure() {
         layer.cornerRadius = 16
         layer.borderWidth = 2
