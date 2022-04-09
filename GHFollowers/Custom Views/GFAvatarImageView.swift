@@ -1,13 +1,17 @@
 //
-//  GFAlertContainerView.swift
+//  GFAvatarImageView.swift
 //  GHFollowers
 //
-//  Created by Apurva Deshmukh on 3/28/22.
+//  Created by Apurva Deshmukh on 4/9/22.
 //
 
 import UIKit
 
-class GFAlertContainerView: UIView {
+class GFAvatarImageView: UIImageView {
+    
+    // MARK: Properties
+    
+    let placeholderImage = UIImage(named: "avatar-placeholder")!
 
     // MARK: Lifecycle
     
@@ -23,11 +27,9 @@ class GFAlertContainerView: UIView {
     // MARK: Helpers
     
     private func configure() {
-        layer.cornerRadius = 16
-        layer.borderWidth = 2
-        layer.borderColor = UIColor.white.cgColor
-        backgroundColor = .systemBackground
+        layer.cornerRadius = 10
+        clipsToBounds = true
+        image = placeholderImage
     }
-    
-    
+
 }
