@@ -40,11 +40,11 @@ class GFFollowerCell: UICollectionViewCell {
         
         let padding: CGFloat = 8
         
-        avatarImageView.anchor(top: contentView.topAnchor, left: contentView.leftAnchor, right: contentView.rightAnchor, paddingTop: padding, paddingLeft: padding, paddingRight: padding)
+        avatarImageView.anchor(top: topAnchor, left: leftAnchor, right: rightAnchor, paddingTop: padding, paddingLeft: padding, paddingRight: padding)
         
         NSLayoutConstraint.activate([avatarImageView.heightAnchor.constraint(equalTo: avatarImageView.widthAnchor)])
         
-        usernameLabel.anchor(top: avatarImageView.bottomAnchor, left: contentView.leftAnchor, right: contentView.rightAnchor, paddingTop: 12, paddingLeft: padding, paddingRight: padding)
+        usernameLabel.anchor(top: avatarImageView.bottomAnchor, left: leftAnchor, right: rightAnchor, paddingTop: 12, paddingLeft: padding, paddingRight: padding)
         
         usernameLabel.setHeight(height: 20)
     }
